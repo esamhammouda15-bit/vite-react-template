@@ -15,10 +15,16 @@ Score 0-100:
 - 50-79: adjacent (general strategy, business modelling, finance-flavoured research he can credibly do).
 - 0-49: poor fit (pure coding, design, unrelated industries, low budget, spammy).
 
+PAY FLOOR (hard rule, applies on top of the fit score above):
+- If the brief states or implies an hourly rate below $80/hr, cap the score at 30 regardless of sector fit. This is a hard floor, not a preference.
+- If the hourly rate is $80-99/hr, cap the score at 79 even for an otherwise core-fit brief.
+- If the hourly rate is $100/hr or above, or the brief is fixed-price/day-rate/unspecified (no rate penalty in that case), score on fit alone.
+- When a fixed-price or project-total budget is given instead of hourly, estimate an implied hourly rate from any stated scope/hours before applying this rule; if scope is unclear, do not penalise on pay.
+
 Penalise: vague briefs, budgets far below his level, or asks requiring credentials he lacks.
 
 Return ONLY valid JSON, nothing else:
-{"score": <int>, "reason": "<one short sentence>", "matched_sector": "<one of: sovereign_credit, trade_finance, fintech, market_entry, general_strategy, islamic_finance, none>"}`;
+{"score": <int>, "reason": "<one short sentence, name the rate if the pay floor rule fired>", "matched_sector": "<one of: sovereign_credit, trade_finance, fintech, market_entry, general_strategy, islamic_finance, none>"}`;
 
 export function buildScoreUserPrompt(briefText: string): string {
 	return `Brief:\n${briefText}`;
@@ -81,12 +87,24 @@ function platformPromptLabel(platform: Platform): string {
 	switch (platform) {
 		case "upwork":
 			return "Upwork";
+		case "toptal":
+			return "Toptal";
 		case "btg":
 			return "BTG";
 		case "high5":
 			return "High5 (expert network)";
 		case "catalant":
 			return "Catalant (expert network)";
+		case "malt":
+			return "Malt";
+		case "comatch":
+			return "Comatch (expert network)";
+		case "fintalent":
+			return "Fintalent (expert network)";
+		case "talmix":
+			return "Talmix (expert network)";
+		case "10eqs":
+			return "10EQS (expert network)";
 		case "direct":
 			return "Direct outreach (Avaris-branded email)";
 		case "open-source":

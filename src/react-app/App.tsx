@@ -18,10 +18,16 @@ const FILTER_TABS: { key: Filter; label: string }[] = [
 ];
 
 const PLATFORM_OPTIONS: Platform[] = [
+	"upwork",
 	"catalant",
 	"btg",
 	"high5",
-	"upwork",
+	"toptal",
+	"malt",
+	"comatch",
+	"fintalent",
+	"talmix",
+	"10eqs",
 	"open-source",
 	"direct",
 	"other",

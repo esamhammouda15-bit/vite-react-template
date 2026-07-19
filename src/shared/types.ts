@@ -5,6 +5,12 @@ export type Platform =
 	| "btg"
 	| "high5"
 	| "upwork"
+	| "toptal"
+	| "malt"
+	| "comatch"
+	| "fintalent"
+	| "talmix"
+	| "10eqs"
 	| "open-source"
 	| "direct"
 	| "other";
@@ -70,7 +76,18 @@ export const PLATFORM_LABELS: Record<Platform, string> = {
 	btg: "BTG",
 	high5: "High5",
 	upwork: "Upwork",
+	toptal: "Toptal",
+	malt: "Malt",
+	comatch: "Comatch",
+	fintalent: "Fintalent",
+	talmix: "Talmix",
+	"10eqs": "10EQS",
 	"open-source": "Open source",
 	direct: "Direct",
 	other: "Other",
 };
+
+// Minimum acceptable hourly rate; gigs quoting below this are scored down hard.
+export const MIN_HOURLY_RATE = 80;
+// Target hourly rate; gigs at or above this take no pay-related penalty.
+export const TARGET_HOURLY_RATE = 100;

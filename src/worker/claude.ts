@@ -3,7 +3,13 @@
 // The fallback is clearly heuristic and is only used when ANTHROPIC_API_KEY is
 // absent, so `wrangler dev` and the verify pass work out of the box.
 
-import type { MatchedSector, Platform, ScoreResult } from "../shared/types";
+import {
+	MIN_HOURLY_RATE,
+	TARGET_HOURLY_RATE,
+	type MatchedSector,
+	type Platform,
+	type ScoreResult,
+} from "../shared/types";
 import {
 	FIT_SCORE_SYSTEM,
 	PROPOSAL_SYSTEM,
@@ -183,6 +189,41 @@ const SECTOR_RULES: SectorRule[] = [
 
 const POOR_FIT_KEYWORDS = ["logo", "design", "wordpress", "frontend", "react app", "mobile app", "seo", "video edit", "copywriting"];
 
+// Matches things like "$65/hr", "$65 per hour", "65 USD/hour". Takes the first
+// hourly-rate mention in the brief as the rate to test against the floor.
+const HOURLY_RATE_RE = /\$?\s?(\d{2,4}(?:\.\d{1,2})?)\s*(?:usd|\$)?\s*(?:\/|per)\s*(?:hr|hour)/i;
+
+function extractHourlyRate(text: string): number | null {
+	const match = text.match(HOURLY_RATE_RE);
+	if (!match) return null;
+	const rate = Number(match[1]);
+	return Number.isFinite(rate) ? rate : null;
+}
+
+// Mirrors the PAY FLOOR rule in FIT_SCORE_SYSTEM: below MIN_HOURLY_RATE caps
+// hard at 30, between MIN and TARGET caps at 79, at/above TARGET or unstated
+// is scored on fit alone.
+function applyPayFloor(text: string, result: ScoreResult): ScoreResult {
+	const rate = extractHourlyRate(text);
+	if (rate === null) return result;
+	if (rate < MIN_HOURLY_RATE) {
+		return {
+			score: Math.min(result.score, 30),
+			reason: `[mock] Below the $${MIN_HOURLY_RATE}/hr floor (quotes $${rate}/hr), capped regardless of sector fit.`,
+			matched_sector: result.matched_sector,
+		};
+	}
+	if (rate < TARGET_HOURLY_RATE && result.score > 79) {
+		const reason = result.reason.replace(/^\[mock\]\s*/, "");
+		return {
+			score: 79,
+			reason: `[mock] ${reason} Rate is $${rate}/hr, under the $${TARGET_HOURLY_RATE}/hr target, capped.`,
+			matched_sector: result.matched_sector,
+		};
+	}
+	return result;
+}
+
 function mockScore(briefText: string): ScoreResult {
 	const text = briefText.toLowerCase();
 	let best: SectorRule | null = null;
@@ -195,24 +236,24 @@ function mockScore(briefText: string): ScoreResult {
 	}
 	const poor = POOR_FIT_KEYWORDS.some((k) => text.includes(k));
 	if (poor && (!best || best.weight < 70)) {
-		return {
+		return applyPayFloor(text, {
 			score: 20,
 			reason: "[mock] Reads as design/dev/marketing work outside the strategy-finance profile.",
 			matched_sector: "none",
-		};
+		});
 	}
 	if (!best) {
-		return {
+		return applyPayFloor(text, {
 			score: 35,
 			reason: "[mock] No clear match to sovereign credit, trade finance, FinTech, or MENA market entry.",
 			matched_sector: "none",
-		};
+		});
 	}
-	return {
+	return applyPayFloor(text, {
 		score: best.weight,
 		reason: `[mock] Matches ${best.sector.replace(/_/g, " ")} language in the brief.`,
 		matched_sector: best.sector,
-	};
+	});
 }
 
 const CREDENTIAL_BY_SECTOR: Record<MatchedSector, string> = {
