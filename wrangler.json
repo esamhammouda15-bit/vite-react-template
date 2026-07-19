@@ -11,5 +11,17 @@
 	"assets": {
 		"directory": "./dist/client",
 		"not_found_handling": "single-page-application"
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "avaris-gigs",
+			"database_id": "REPLACE_WITH_D1_ID_AFTER_CREATE",
+			"migrations_dir": "migrations"
+		}
+	],
+	"vars": {
+		"SCORING_MODEL": "claude-haiku-4-5-20251001",
+		"PROPOSAL_MODEL": "claude-sonnet-5"
 	}
 }
