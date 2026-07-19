@@ -1,0 +1,5 @@
+{
+	"last_run_at": "2026-07-19T09:00:00Z",
+	"gmail_cursor": "2026-07-19T09:00:00Z",
+	"notes": "gmail_cursor is the timestamp of the newest alert email processed so far; each daily run should only consider messages newer than this, then advance it."
+}
