@@ -1,5 +1,16 @@
 {
-	"last_run_at": "2026-07-19T09:00:00Z",
-	"gmail_cursor": "2026-07-19T09:00:00Z",
-	"notes": "gmail_cursor is the timestamp of the newest alert email processed so far; each daily run should only consider messages newer than this, then advance it."
+	"last_run_at": "2026-07-19T18:42:00Z",
+	"gmail_cursor": "2026-07-19T18:36:36Z",
+	"gmail_label_query_note": "Use label:Avaris (display name) in Gmail search_threads queries, not label:Label_1 (the ID) — the ID form returns zero results even though list_labels reports it correctly.",
+	"known_platform_senders": {
+		"upwork": ["donotreply@upwork.com", "upwork@email.upwork.com", "upwork@t.upwork.com"],
+		"catalant": ["donotreply@gocatalant.com"],
+		"btg": ["talent@businesstalentgroup.com", "firstlook@businesstalentgroup.com"],
+		"high5": ["support@high5hire.app"],
+		"toptal": ["*@toptal.com"],
+		"malt": ["*@malt.com"],
+		"nextyn": ["info@nextyn.com"],
+		"ungm": ["no-reply@ungm.org"]
+	},
+	"notes": "gmail_cursor is the timestamp of the newest alert email processed so far; each daily run should only consider messages newer than this, then advance it. nextyn and ungm added 2026-07-19 after being spotted as new registrations in the inbox; not yet confirmed as gig-producing sources."
 }
