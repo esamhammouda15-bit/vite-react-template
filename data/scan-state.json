@@ -1,6 +1,6 @@
 {
-	"last_run_at": "2026-07-19T18:42:00Z",
-	"gmail_cursor": "2026-07-19T18:36:36Z",
+	"last_run_at": "2026-07-20T23:30:00Z",
+	"gmail_cursor": "2026-07-20T23:22:32Z",
 	"gmail_label_query_note": "Use label:Avaris (display name) in Gmail search_threads queries, not label:Label_1 (the ID) — the ID form returns zero results even though list_labels reports it correctly.",
 	"known_platform_senders": {
 		"upwork": ["donotreply@upwork.com", "upwork@email.upwork.com", "upwork@t.upwork.com"],
@@ -10,7 +10,10 @@
 		"toptal": ["*@toptal.com"],
 		"malt": ["*@malt.com"],
 		"nextyn": ["info@nextyn.com"],
-		"ungm": ["no-reply@ungm.org"]
+		"ungm": ["no-reply@ungm.org"],
+		"strategyconnect": ["info@strategyconnect.co"],
+		"movemeon": ["info@movemeon.com"],
+		"clutch": ["no-reply@clutch.co", "hello@clutch.co"]
 	},
-	"notes": "gmail_cursor is the timestamp of the newest alert email processed so far; each daily run should only consider messages newer than this, then advance it. nextyn and ungm added 2026-07-19 after being spotted as new registrations in the inbox; not yet confirmed as gig-producing sources."
+	"notes": "gmail_cursor is the timestamp of the newest alert email processed so far; each daily run should only consider messages newer than this, then advance it. StrategyConnect, MoveMeOn, and Clutch added 2026-07-20 after being spotted as new registrations in the inbox. MoveMeOn is a strategy-consulting-focused marketplace, worth prioritizing. Clutch is an agency directory (inbound leads), not a gig board — track but don't score against it. BTG occasionally sends 'new projects available' notifications with no brief text included; these can't be auto-scored and need a manual portal login to review."
 }
