@@ -1,6 +1,6 @@
 {
-	"last_run_at": "2026-07-22T06:05:00Z",
-	"gmail_cursor": "2026-07-22T05:35:06Z",
+	"last_run_at": "2026-07-22T22:15:00Z",
+	"gmail_cursor": "2026-07-22T22:08:58Z",
 	"gmail_label_query_note": "Use label:Avaris (display name) in Gmail search_threads queries, not label:Label_1 (the ID) — the ID form returns zero results even though list_labels reports it correctly.",
 	"known_platform_senders": {
 		"upwork": ["donotreply@upwork.com", "upwork@email.upwork.com", "upwork@t.upwork.com"],
@@ -16,6 +16,6 @@
 		"clutch": ["no-reply@clutch.co", "hello@clutch.co"],
 		"umbrex": ["membership@umbrex.com"]
 	},
-	"notes": "gmail_cursor is the timestamp of the newest alert email processed so far; each daily run should only consider messages newer than this, then advance it. Umbrex added 2026-07-22 — application was declined (membership requires full-time independent consulting status not currently met), not an active source. MoveMeOn now has full access granted but is not yet sending email alerts with brief text — worth checking the platform directly. BTG occasionally sends 'new projects available' notifications with no brief text included; these can't be auto-scored and need a manual portal login to review. Catalant confirmed to be actively matching/declining him on real projects even though it never emails full brief text.",
-	"upwork_alert_noise_note": "Across 3 runs, 4-6 of the daily Upwork alerts per run have been sales/BD/SDR/admin roles with no rate or pay-floor-failing rate. The account's job-alert keyword settings appear broad; recommend the user tighten them if this pattern continues."
+	"notes": "gmail_cursor is the timestamp of the newest alert email processed so far; each daily run should only consider messages newer than this, then advance it. UNGM Tender Alert Service (TAS) delivered its first live notice on 2026-07-22 (sender no-reply@ungm.org, subject 'Tender Alert Service (TAS)') — the subscription is confirmed working. First tender was off-topic (ILO migrant-labor policy paper), suggesting the TAS keyword/category settings may need tuning toward finance/sovereign-debt/MENA. Umbrex declined membership application (doesn't currently meet full-time-consulting criteria). MoveMeOn has full access granted but not yet sending brief-text alerts. BTG occasionally sends 'new projects available' notifications with no brief text; need manual portal login to review. Catalant confirmed to actively match/decline him on real projects even though it never emails full brief text.",
+	"upwork_alert_noise_note": "Across 4 runs, most daily Upwork alerts have been sales/BD/SDR/admin/scam-tier-fixed-price roles. Recommend the user tighten Upwork alert keyword/rate settings if this pattern continues."
 }
