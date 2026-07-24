@@ -1,6 +1,6 @@
 {
-	"last_run_at": "2026-07-22T22:15:00Z",
-	"gmail_cursor": "2026-07-22T22:08:58Z",
+	"last_run_at": "2026-07-23T13:35:00Z",
+	"gmail_cursor": "2026-07-23T13:25:07Z",
 	"gmail_label_query_note": "Use label:Avaris (display name) in Gmail search_threads queries, not label:Label_1 (the ID) — the ID form returns zero results even though list_labels reports it correctly.",
 	"known_platform_senders": {
 		"upwork": ["donotreply@upwork.com", "upwork@email.upwork.com", "upwork@t.upwork.com"],
@@ -17,5 +17,5 @@
 		"umbrex": ["membership@umbrex.com"]
 	},
 	"notes": "gmail_cursor is the timestamp of the newest alert email processed so far; each daily run should only consider messages newer than this, then advance it. UNGM Tender Alert Service (TAS) delivered its first live notice on 2026-07-22 (sender no-reply@ungm.org, subject 'Tender Alert Service (TAS)') — the subscription is confirmed working. First tender was off-topic (ILO migrant-labor policy paper), suggesting the TAS keyword/category settings may need tuning toward finance/sovereign-debt/MENA. Umbrex declined membership application (doesn't currently meet full-time-consulting criteria). MoveMeOn has full access granted but not yet sending brief-text alerts. BTG occasionally sends 'new projects available' notifications with no brief text; need manual portal login to review. Catalant confirmed to actively match/decline him on real projects even though it never emails full brief text.",
-	"upwork_alert_noise_note": "Across 4 runs, most daily Upwork alerts have been sales/BD/SDR/admin/scam-tier-fixed-price roles. Recommend the user tighten Upwork alert keyword/rate settings if this pattern continues."
+	"upwork_alert_noise_note": "Across 5 runs, most daily Upwork alerts have been sales/BD/SDR/admin roles or scam-tier/unrealistic fixed-price gigs (e.g. $100 for a full pre-seed financial model). Recommend the user tighten Upwork alert keyword/rate settings if this pattern continues — no ready-to-apply Upwork gig has cleared both fit and pay floor in 5 consecutive runs."
 }
