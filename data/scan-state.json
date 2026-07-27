@@ -1,6 +1,6 @@
 {
-	"last_run_at": "2026-07-25T20:15:00Z",
-	"gmail_cursor": "2026-07-25T20:06:36Z",
+	"last_run_at": "2026-07-26T14:00:00Z",
+	"gmail_cursor": "2026-07-26T13:53:19Z",
 	"gmail_label_query_note": "Use label:Avaris (display name) in Gmail search_threads queries, not label:Label_1 (the ID) — the ID form returns zero results even though list_labels reports it correctly.",
 	"known_platform_senders": {
 		"upwork": ["donotreply@upwork.com", "upwork@email.upwork.com", "upwork@t.upwork.com"],
@@ -17,6 +17,16 @@
 		"umbrex": ["membership@umbrex.com"],
 		"f6s": ["donotreply@f6s.com", "notifications@f6s.com", "support@f6s.com"]
 	},
-	"notes": "gmail_cursor is the timestamp of the newest alert email processed so far; each daily run should only consider messages newer than this, then advance it. F6S added 2026-07-25 — a startup/accelerator community platform where the user is applying Avaris Trading Research itself to accelerator/investment programs (business development for the firm, not freelance gigs). Treated as out-of-scope like Clutch, not a gig source, unless the user says otherwise. UNGM Tender Alert Service (TAS) delivered its first live notice on 2026-07-22, no second one yet as of 2026-07-25. Umbrex declined membership application. MoveMeOn has full access granted but not yet sending brief-text alerts. BTG occasionally sends 'new projects available' notifications with no brief text; needs manual portal login. Catalant confirmed to actively match/decline him on real projects even though it never emails full brief text. Toptal Management Consulting screening ongoing, next live session 2026-07-28 with Isabella Mancini.",
-	"upwork_alert_noise_note": "Across 7 runs, most daily Upwork alerts have been sales/BD/SDR/admin roles or scam-tier/unrealistic fixed-price gigs. No ready-to-apply Upwork gig has cleared both fit and pay floor in 7 consecutive runs — recommend the user decide whether to tighten Upwork alert settings or deprioritize Upwork relative to Catalant/BTG/UNGM/MoveMeOn."
+	"notes": "gmail_cursor is the timestamp of the newest alert email processed so far; each daily run should only consider messages newer than this, then advance it. UNGM Tender Alert Service (TAS) delivered its first live notice on 2026-07-22, no second one yet. Umbrex declined membership application. MoveMeOn has full access granted but not yet sending brief-text alerts. BTG occasionally sends 'new projects available' notifications with no brief text; needs manual portal login. Catalant confirmed to actively match/decline him on real projects even though it never emails full brief text. F6S is out-of-scope (accelerator applications for the firm, not gigs). Toptal Management Consulting screening ongoing, live session with Isabella Mancini on 2026-07-28.",
+	"upwork_alert_noise_note": "Across 8 runs, most daily Upwork alerts have been sales/BD/SDR/admin roles or scam-tier/unrealistic fixed-price gigs. No ready-to-apply Upwork gig has cleared both fit and pay floor in 8 consecutive runs.",
+	"open_market_wins": [
+		{
+			"date": "2026-07-26",
+			"source": "AfDB procurement (found via WebSearch, not yet a subscribed alert)",
+			"title": "EOI: Consulting Firm for Market Validation of Supply Chain Finance (SCF) in Africa",
+			"deadline": "2026-07-31",
+			"status": "drafted, awaiting user submission",
+			"url": "https://www.afdb.org/en/consultants/eoi-consulting-firm-market-validation-introduction-supply-chain-finance-scf-africa-pifd-95120"
+		}
+	]
 }
