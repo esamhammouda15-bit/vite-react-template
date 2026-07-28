@@ -1,6 +1,6 @@
 {
-	"last_run_at": "2026-07-26T14:00:00Z",
-	"gmail_cursor": "2026-07-26T13:53:19Z",
+	"last_run_at": "2026-07-28T06:10:00Z",
+	"gmail_cursor": "2026-07-28T06:00:21Z",
 	"gmail_label_query_note": "Use label:Avaris (display name) in Gmail search_threads queries, not label:Label_1 (the ID) — the ID form returns zero results even though list_labels reports it correctly.",
 	"known_platform_senders": {
 		"upwork": ["donotreply@upwork.com", "upwork@email.upwork.com", "upwork@t.upwork.com"],
@@ -17,8 +17,8 @@
 		"umbrex": ["membership@umbrex.com"],
 		"f6s": ["donotreply@f6s.com", "notifications@f6s.com", "support@f6s.com"]
 	},
-	"notes": "gmail_cursor is the timestamp of the newest alert email processed so far; each daily run should only consider messages newer than this, then advance it. UNGM Tender Alert Service (TAS) delivered its first live notice on 2026-07-22, no second one yet. Umbrex declined membership application. MoveMeOn has full access granted but not yet sending brief-text alerts. BTG occasionally sends 'new projects available' notifications with no brief text; needs manual portal login. Catalant confirmed to actively match/decline him on real projects even though it never emails full brief text. F6S is out-of-scope (accelerator applications for the firm, not gigs). Toptal Management Consulting screening ongoing, live session with Isabella Mancini on 2026-07-28.",
-	"upwork_alert_noise_note": "Across 8 runs, most daily Upwork alerts have been sales/BD/SDR/admin roles or scam-tier/unrealistic fixed-price gigs. No ready-to-apply Upwork gig has cleared both fit and pay floor in 8 consecutive runs.",
+	"notes": "gmail_cursor is the timestamp of the newest alert email processed so far; each daily run should only consider messages newer than this, then advance it. UNGM Tender Alert Service (TAS) delivered its first live notice on 2026-07-22, no second one yet. Umbrex declined membership application. MoveMeOn has full access granted but not yet sending brief-text alerts. BTG occasionally sends 'new projects available' notifications with no brief text (distinct from generic 'talent resources' emails); needs manual portal login to check for live projects. Catalant confirmed to actively match/decline him on real projects even though it never emails full brief text. F6S is out-of-scope (accelerator applications for the firm, not gigs). Toptal Management Consulting screening: T2 screening call with Isabella Mancini held 2026-07-28.",
+	"upwork_alert_noise_note": "Across 9 runs, most daily Upwork alerts have been sales/BD/SDR/admin roles or scam-tier/unrealistic fixed-price gigs. No ready-to-apply Upwork gig has cleared both fit and pay floor in 9 consecutive runs.",
 	"open_market_wins": [
 		{
 			"date": "2026-07-26",
