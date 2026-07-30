@@ -1,6 +1,6 @@
 {
-	"last_run_at": "2026-07-28T19:15:00Z",
-	"gmail_cursor": "2026-07-28T19:05:49Z",
+	"last_run_at": "2026-07-29T18:00:00Z",
+	"gmail_cursor": "2026-07-29T17:51:28Z",
 	"gmail_label_query_note": "Use label:Avaris (display name) in Gmail search_threads queries, not label:Label_1 (the ID) — the ID form returns zero results even though list_labels reports it correctly.",
 	"known_platform_senders": {
 		"upwork": ["donotreply@upwork.com", "upwork@email.upwork.com", "upwork@t.upwork.com"],
@@ -12,20 +12,20 @@
 		"nextyn": ["info@nextyn.com"],
 		"ungm": ["no-reply@ungm.org"],
 		"strategyconnect": ["info@strategyconnect.co"],
-		"movemeon": ["info@movemeon.com", "gaby@newsletter.movemeon.com"],
+		"movemeon": ["info@movemeon.com", "gaby@newsletter.movemeon.com", "greg@movemeon.com"],
 		"clutch": ["no-reply@clutch.co", "hello@clutch.co"],
 		"umbrex": ["membership@umbrex.com"],
 		"f6s": ["donotreply@f6s.com", "notifications@f6s.com", "support@f6s.com", "alex@f6s.com"]
 	},
-	"notes": "gmail_cursor is the timestamp of the newest alert email processed so far; each daily run should only consider messages newer than this, then advance it. MILESTONE 2026-07-28: user PASSED the Toptal Management Consulting screening and is now onboarding (ID verification pending, W-8BEN and Freelance Talent Agreement signed via DocuSign). Toptal status upgraded from 'mid-screening' to 'active platform, onboarding' — watch closely for real client matches in coming runs. MoveMeOn sends a weekly digest (gaby@newsletter.movemeon.com) but listings so far are permanent full-time placements, not freelance projects — out of scope, do not score. UNGM TAS delivered one alert 2026-07-22, none since. BTG has now sent 'New projects available!' with no brief text 3 times; needs manual portal login to review, cannot be auto-scored. Catalant confirmed to actively match/decline on real projects without emailing brief text. F6S and Clutch remain out-of-scope (firm-level business dev, not gigs).",
-	"upwork_alert_noise_note": "Across 10 runs, most daily Upwork alerts have been sales/BD/SDR/admin roles or scam-tier/unrealistic fixed-price gigs. No ready-to-apply Upwork gig has cleared both fit and pay floor in 10 consecutive runs.",
+	"notes": "gmail_cursor is the timestamp of the newest alert email processed so far; each daily run should only consider messages newer than this, then advance it. Toptal onboarding is deep in progress as of 2026-07-29: legal docs (Freelance Talent Agreement, W-8BEN, W-8BEN-E) signed/approved, Payments account created, but a taxpayer-information verification issue is PAUSING transfers — needs user resolution, flagged as an action item across runs until resolved. MoveMeOn: original 'Strategy Managers & Consultants' application was rejected 2026-07-29; user applied directly to a 'Senior Consultant - 6-month contract' role (status: under review) - confirms MoveMeOn does carry project/contract roles, not only permanent, revise prior assumption. UNGM TAS delivered one alert 2026-07-22, none since. BTG 'New projects available!' pattern continues without brief text, needs manual portal review. F6S and Clutch remain out-of-scope.",
+	"upwork_alert_noise_note": "Across 11 runs, most daily Upwork alerts have been sales/BD/SDR/admin roles or scam-tier/unrealistic fixed-price gigs. No ready-to-apply Upwork gig has cleared both fit and pay floor in 11 consecutive runs.",
 	"open_market_wins": [
 		{
 			"date": "2026-07-26",
 			"source": "AfDB procurement (found via WebSearch, not yet a subscribed alert)",
 			"title": "EOI: Consulting Firm for Market Validation of Supply Chain Finance (SCF) in Africa",
 			"deadline": "2026-07-31",
-			"status": "drafted, awaiting user submission — due in 2 days as of this run",
+			"status": "drafted, awaiting user submission — due tomorrow as of this run",
 			"url": "https://www.afdb.org/en/consultants/eoi-consulting-firm-market-validation-introduction-supply-chain-finance-scf-africa-pifd-95120"
 		}
 	]
