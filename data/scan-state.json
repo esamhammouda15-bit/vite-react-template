@@ -1,5 +1,5 @@
 {
-	"last_run_at": "2026-07-30T12:55:00Z",
+	"last_run_at": "2026-08-01T06:10:00Z",
 	"gmail_cursor": "2026-07-30T12:44:57Z",
 	"gmail_label_query_note": "Use label:Avaris (display name) in Gmail search_threads queries, not label:Label_1 (the ID) — the ID form returns zero results even though list_labels reports it correctly.",
 	"known_platform_senders": {
@@ -17,15 +17,15 @@
 		"umbrex": ["membership@umbrex.com"],
 		"f6s": ["donotreply@f6s.com", "notifications@f6s.com", "support@f6s.com", "alex@f6s.com"]
 	},
-	"notes": "gmail_cursor is the timestamp of the newest alert email processed so far; each daily run should only consider messages newer than this, then advance it. MILESTONE 2026-07-30: Toptal onboarding is FULLY COMPLETE — taxpayer verification issue resolved, Payments account set up, profile live, 'You're Ready to Apply for Toptal Jobs!' received. Toptal status upgraded from 'onboarding' to 'active, eligible to apply'. Like Catalant/BTG, Toptal does not appear to email individual job listings, so real opportunities may need occasional manual portal checks. MoveMeOn carries contract/project roles (confirmed via Senior Consultant 6-month contract application). UNGM TAS delivered one alert 2026-07-22, none since. BTG 'New projects available!' pattern continues without brief text. F6S and Clutch remain out-of-scope.",
-	"upwork_alert_noise_note": "Across 12 runs, most daily Upwork alerts have been sales/BD/SDR/admin roles or scam-tier/unrealistic fixed-price gigs. No ready-to-apply Upwork gig has cleared both fit and pay floor in 12 consecutive runs.",
+	"notes": "gmail_cursor is the timestamp of the newest alert email processed so far; each daily run should only consider messages newer than this, then advance it. gmail_cursor unchanged this run (2026-08-01) since no new mail arrived after 2026-07-30T12:44:57Z. Toptal onboarding is FULLY COMPLETE as of 2026-07-30 — active, eligible to apply. Toptal, Catalant, and BTG do not appear to email individual job listings; real opportunities on those three may need occasional manual portal checks. MoveMeOn carries contract/project roles. UNGM TAS delivered one alert 2026-07-22, none since. BTG 'New projects available!' pattern continues without brief text. F6S and Clutch remain out-of-scope.",
+	"upwork_alert_noise_note": "Across 13 runs, most daily Upwork alerts have been sales/BD/SDR/admin roles or scam-tier/unrealistic fixed-price gigs. No ready-to-apply Upwork gig has cleared both fit and pay floor in 13 consecutive runs. No new Upwork alerts at all in this run's window.",
 	"open_market_wins": [
 		{
 			"date": "2026-07-26",
 			"source": "AfDB procurement (found via WebSearch, not yet a subscribed alert)",
 			"title": "EOI: Consulting Firm for Market Validation of Supply Chain Finance (SCF) in Africa",
 			"deadline": "2026-07-31",
-			"status": "drafted, awaiting user submission — due today as of this run",
+			"status": "drafted 2026-07-26; deadline has now passed as of this run — confirm with user whether submitted",
 			"url": "https://www.afdb.org/en/consultants/eoi-consulting-firm-market-validation-introduction-supply-chain-finance-scf-africa-pifd-95120"
 		}
 	]
