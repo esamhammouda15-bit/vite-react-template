@@ -1,6 +1,6 @@
 {
-	"last_run_at": "2026-08-06T06:15:00Z",
-	"gmail_cursor": "2026-08-06T06:05:40Z",
+	"last_run_at": "2026-08-06T15:10:00Z",
+	"gmail_cursor": "2026-08-06T15:00:36Z",
 	"gmail_label_query_note": "Use label:Avaris (display name) in Gmail search_threads queries, not label:Label_1 (the ID) — the ID form returns zero results even though list_labels reports it correctly.",
 	"known_platform_senders": {
 		"upwork": ["donotreply@upwork.com", "upwork@email.upwork.com", "upwork@t.upwork.com"],
@@ -18,15 +18,15 @@
 		"f6s": ["donotreply@f6s.com", "notifications@f6s.com", "support@f6s.com", "alex@f6s.com"],
 		"isdb": ["no-reply@ksaprv.cloud.ariba.com"]
 	},
-	"notes": "gmail_cursor is the timestamp of the newest alert email processed so far; each daily run should only consider messages newer than this, then advance it. UNGM TAS delivered a second alert 2026-08-06 (ILO M&E evaluation TOR, Egypt) — off-topic again, same pattern as the July 22 migrant-labor tender; TAS keyword/category settings may need tuning toward finance/sovereign-debt. MoveMeOn's weekly digest now includes freelance/contract listings alongside permanent roles (not purely permanent as first assumed) — one 'Freelance Strategy Consultant (AI Training)' listing flagged for manual review, insufficient detail in the digest to score or draft safely. BTG 'New projects available!' recurred again (5 Aug), still no brief text. Toptal, Catalant quiet. IsDB registration still pending. F6S and Clutch remain out-of-scope. AfDB EOI deadline (31 July) passed, submission status still unconfirmed by user.",
-	"upwork_alert_noise_note": "Across 18 runs, most daily Upwork alerts have been sales/BD/SDR/admin roles or scam-tier/unrealistic fixed-price gigs. No ready-to-apply Upwork gig has cleared both fit and pay floor in 18 consecutive runs. No new Upwork alerts at all in the last 6 runs.",
+	"notes": "gmail_cursor is the timestamp of the newest alert email processed so far; each daily run should only consider messages newer than this, then advance it. MILESTONE 2026-08-06: High5 Talent Passport approved, user is now active and eligible to apply for projects (registered pending since 2026-07-13). Unclear yet whether High5 emails individual project listings or requires portal browsing, like Catalant/BTG. UNGM TAS second alert (2026-08-06) was off-topic (ILO M&E). MoveMeOn carries freelance/contract listings alongside permanent roles. BTG 'New projects available!' recurred 2026-08-05, still no brief text. IsDB registration still pending. F6S and Clutch remain out-of-scope. AfDB EOI deadline (31 July) passed, submission status still unconfirmed by user.",
+	"upwork_alert_noise_note": "Across 19 runs, most daily Upwork alerts have been sales/BD/SDR/admin roles or scam-tier/unrealistic fixed-price gigs. No ready-to-apply Upwork gig has cleared both fit and pay floor in 19 consecutive runs. No new Upwork alerts at all in the last 7 runs.",
 	"open_market_wins": [
 		{
 			"date": "2026-07-26",
 			"source": "AfDB procurement (found via WebSearch, not yet a subscribed alert)",
 			"title": "EOI: Consulting Firm for Market Validation of Supply Chain Finance (SCF) in Africa",
 			"deadline": "2026-07-31",
-			"status": "drafted 2026-07-26; deadline passed, submission status unconfirmed by user as of 6 runs since",
+			"status": "drafted 2026-07-26; deadline passed, submission status unconfirmed by user as of 7 runs since",
 			"url": "https://www.afdb.org/en/consultants/eoi-consulting-firm-market-validation-introduction-supply-chain-finance-scf-africa-pifd-95120"
 		}
 	]
