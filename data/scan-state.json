@@ -1,6 +1,6 @@
 {
-	"last_run_at": "2026-08-06T15:10:00Z",
-	"gmail_cursor": "2026-08-06T15:00:36Z",
+	"last_run_at": "2026-08-07T14:45:00Z",
+	"gmail_cursor": "2026-08-07T14:35:11Z",
 	"gmail_label_query_note": "Use label:Avaris (display name) in Gmail search_threads queries, not label:Label_1 (the ID) — the ID form returns zero results even though list_labels reports it correctly.",
 	"known_platform_senders": {
 		"upwork": ["donotreply@upwork.com", "upwork@email.upwork.com", "upwork@t.upwork.com"],
@@ -12,21 +12,21 @@
 		"nextyn": ["info@nextyn.com"],
 		"ungm": ["no-reply@ungm.org"],
 		"strategyconnect": ["info@strategyconnect.co"],
-		"movemeon": ["info@movemeon.com", "gaby@newsletter.movemeon.com", "greg@movemeon.com"],
+		"movemeon": ["info@movemeon.com", "gaby@newsletter.movemeon.com", "greg@movemeon.com", "founders@movemeon.com"],
 		"clutch": ["no-reply@clutch.co", "hello@clutch.co"],
 		"umbrex": ["membership@umbrex.com"],
 		"f6s": ["donotreply@f6s.com", "notifications@f6s.com", "support@f6s.com", "alex@f6s.com"],
 		"isdb": ["no-reply@ksaprv.cloud.ariba.com"]
 	},
-	"notes": "gmail_cursor is the timestamp of the newest alert email processed so far; each daily run should only consider messages newer than this, then advance it. MILESTONE 2026-08-06: High5 Talent Passport approved, user is now active and eligible to apply for projects (registered pending since 2026-07-13). Unclear yet whether High5 emails individual project listings or requires portal browsing, like Catalant/BTG. UNGM TAS second alert (2026-08-06) was off-topic (ILO M&E). MoveMeOn carries freelance/contract listings alongside permanent roles. BTG 'New projects available!' recurred 2026-08-05, still no brief text. IsDB registration still pending. F6S and Clutch remain out-of-scope. AfDB EOI deadline (31 July) passed, submission status still unconfirmed by user.",
-	"upwork_alert_noise_note": "Across 19 runs, most daily Upwork alerts have been sales/BD/SDR/admin roles or scam-tier/unrealistic fixed-price gigs. No ready-to-apply Upwork gig has cleared both fit and pay floor in 19 consecutive runs. No new Upwork alerts at all in the last 7 runs.",
+	"notes": "gmail_cursor is the timestamp of the newest alert email processed so far; each daily run should only consider messages newer than this, then advance it. AfDB EOI (deadline 31 July) has been flagged as unconfirmed for 8 consecutive runs with no user response — stop actively repeating this reminder in daily digests going forward unless new information arrives; keep in open_market_wins history for reference only. High5 active since 2026-08-06 but no project-listing emails yet. BTG 'New projects available!' from 2026-08-05 still pending manual review as far as this system knows. UNGM TAS second alert (2026-08-06) was off-topic. IsDB registration still pending. F6S, Clutch, and MoveMeOn's newsletter arm remain out-of-scope/non-gig noise.",
+	"upwork_alert_noise_note": "Across 20 runs, most daily Upwork alerts have been sales/BD/SDR/admin roles or scam-tier/unrealistic fixed-price gigs. No ready-to-apply Upwork gig has cleared both fit and pay floor in 20 consecutive runs. No new Upwork alerts at all in the last 8 runs.",
 	"open_market_wins": [
 		{
 			"date": "2026-07-26",
 			"source": "AfDB procurement (found via WebSearch, not yet a subscribed alert)",
 			"title": "EOI: Consulting Firm for Market Validation of Supply Chain Finance (SCF) in Africa",
 			"deadline": "2026-07-31",
-			"status": "drafted 2026-07-26; deadline passed, submission status unconfirmed by user as of 7 runs since",
+			"status": "drafted 2026-07-26; deadline passed, submission status unconfirmed by user after 8 runs — no longer actively re-flagged, kept for reference",
 			"url": "https://www.afdb.org/en/consultants/eoi-consulting-firm-market-validation-introduction-supply-chain-finance-scf-africa-pifd-95120"
 		}
 	]
