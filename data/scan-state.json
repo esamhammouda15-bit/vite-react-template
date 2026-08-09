@@ -1,5 +1,5 @@
 {
-	"last_run_at": "2026-08-07T14:45:00Z",
+	"last_run_at": "2026-08-09T06:10:00Z",
 	"gmail_cursor": "2026-08-07T14:35:11Z",
 	"gmail_label_query_note": "Use label:Avaris (display name) in Gmail search_threads queries, not label:Label_1 (the ID) — the ID form returns zero results even though list_labels reports it correctly.",
 	"known_platform_senders": {
@@ -18,15 +18,15 @@
 		"f6s": ["donotreply@f6s.com", "notifications@f6s.com", "support@f6s.com", "alex@f6s.com"],
 		"isdb": ["no-reply@ksaprv.cloud.ariba.com"]
 	},
-	"notes": "gmail_cursor is the timestamp of the newest alert email processed so far; each daily run should only consider messages newer than this, then advance it. AfDB EOI (deadline 31 July) has been flagged as unconfirmed for 8 consecutive runs with no user response — stop actively repeating this reminder in daily digests going forward unless new information arrives; keep in open_market_wins history for reference only. High5 active since 2026-08-06 but no project-listing emails yet. BTG 'New projects available!' from 2026-08-05 still pending manual review as far as this system knows. UNGM TAS second alert (2026-08-06) was off-topic. IsDB registration still pending. F6S, Clutch, and MoveMeOn's newsletter arm remain out-of-scope/non-gig noise.",
-	"upwork_alert_noise_note": "Across 20 runs, most daily Upwork alerts have been sales/BD/SDR/admin roles or scam-tier/unrealistic fixed-price gigs. No ready-to-apply Upwork gig has cleared both fit and pay floor in 20 consecutive runs. No new Upwork alerts at all in the last 8 runs.",
+	"notes": "gmail_cursor is the timestamp of the newest alert email processed so far; each daily run should only consider messages newer than this, then advance it. gmail_cursor unchanged this run (2026-08-09) since no new mail arrived after 2026-08-07T14:35:11Z. High5 active since 2026-08-06 but no project-listing emails yet. BTG 'New projects available!' from 2026-08-05 still pending manual review as far as this system knows. UNGM TAS second alert (2026-08-06) was off-topic. IsDB registration still pending. F6S, Clutch, and MoveMeOn's newsletter arm remain out-of-scope/non-gig noise. AfDB EOI no longer actively re-flagged per prior run's note.",
+	"upwork_alert_noise_note": "Across 21 runs, most daily Upwork alerts have been sales/BD/SDR/admin roles or scam-tier/unrealistic fixed-price gigs. No ready-to-apply Upwork gig has cleared both fit and pay floor in 21 consecutive runs. No new Upwork alerts at all in the last 9 runs.",
 	"open_market_wins": [
 		{
 			"date": "2026-07-26",
 			"source": "AfDB procurement (found via WebSearch, not yet a subscribed alert)",
 			"title": "EOI: Consulting Firm for Market Validation of Supply Chain Finance (SCF) in Africa",
 			"deadline": "2026-07-31",
-			"status": "drafted 2026-07-26; deadline passed, submission status unconfirmed by user after 8 runs — no longer actively re-flagged, kept for reference",
+			"status": "drafted 2026-07-26; deadline passed, submission status unconfirmed by user, no longer actively re-flagged, kept for reference",
 			"url": "https://www.afdb.org/en/consultants/eoi-consulting-firm-market-validation-introduction-supply-chain-finance-scf-africa-pifd-95120"
 		}
 	]
