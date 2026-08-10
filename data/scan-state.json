@@ -1,5 +1,5 @@
 {
-	"last_run_at": "2026-08-09T06:10:00Z",
+	"last_run_at": "2026-08-10T06:10:00Z",
 	"gmail_cursor": "2026-08-07T14:35:11Z",
 	"gmail_label_query_note": "Use label:Avaris (display name) in Gmail search_threads queries, not label:Label_1 (the ID) — the ID form returns zero results even though list_labels reports it correctly.",
 	"known_platform_senders": {
@@ -18,8 +18,8 @@
 		"f6s": ["donotreply@f6s.com", "notifications@f6s.com", "support@f6s.com", "alex@f6s.com"],
 		"isdb": ["no-reply@ksaprv.cloud.ariba.com"]
 	},
-	"notes": "gmail_cursor is the timestamp of the newest alert email processed so far; each daily run should only consider messages newer than this, then advance it. gmail_cursor unchanged this run (2026-08-09) since no new mail arrived after 2026-08-07T14:35:11Z. High5 active since 2026-08-06 but no project-listing emails yet. BTG 'New projects available!' from 2026-08-05 still pending manual review as far as this system knows. UNGM TAS second alert (2026-08-06) was off-topic. IsDB registration still pending. F6S, Clutch, and MoveMeOn's newsletter arm remain out-of-scope/non-gig noise. AfDB EOI no longer actively re-flagged per prior run's note.",
-	"upwork_alert_noise_note": "Across 21 runs, most daily Upwork alerts have been sales/BD/SDR/admin roles or scam-tier/unrealistic fixed-price gigs. No ready-to-apply Upwork gig has cleared both fit and pay floor in 21 consecutive runs. No new Upwork alerts at all in the last 9 runs.",
+	"notes": "gmail_cursor is the timestamp of the newest alert email processed so far; each daily run should only consider messages newer than this, then advance it. gmail_cursor unchanged for 2 consecutive runs (2026-08-09, 2026-08-10) since no new mail arrived after 2026-08-07T14:35:11Z. High5 active since 2026-08-06 but no project-listing emails yet. BTG 'New projects available!' from 2026-08-05 still pending manual review as far as this system knows. UNGM TAS second alert (2026-08-06) was off-topic. IsDB registration still pending. F6S, Clutch, and MoveMeOn's newsletter arm remain out-of-scope/non-gig noise. AfDB EOI no longer actively re-flagged.",
+	"upwork_alert_noise_note": "Across 22 runs, most daily Upwork alerts have been sales/BD/SDR/admin roles or scam-tier/unrealistic fixed-price gigs. No ready-to-apply Upwork gig has cleared both fit and pay floor in 22 consecutive runs. No new Upwork alerts at all in the last 10 runs — worth noting this is now a very long dry spell specifically on Upwork.",
 	"open_market_wins": [
 		{
 			"date": "2026-07-26",
