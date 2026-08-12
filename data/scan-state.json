@@ -1,6 +1,6 @@
 {
-	"last_run_at": "2026-08-11T06:15:00Z",
-	"gmail_cursor": "2026-08-11T06:03:58Z",
+	"last_run_at": "2026-08-12T05:20:00Z",
+	"gmail_cursor": "2026-08-12T05:12:25Z",
 	"gmail_label_query_note": "Use label:Avaris (display name) in Gmail search_threads queries, not label:Label_1 (the ID) — the ID form returns zero results even though list_labels reports it correctly.",
 	"known_platform_senders": {
 		"upwork": ["donotreply@upwork.com", "upwork@email.upwork.com", "upwork@t.upwork.com"],
@@ -8,7 +8,7 @@
 		"btg": ["talent@businesstalentgroup.com", "firstlook@businesstalentgroup.com"],
 		"high5": ["support@high5hire.app"],
 		"toptal": ["*@toptal.com", "dse_na2@docusign.net", "payments@toptal.com"],
-		"malt": ["*@malt.com", "community-row@malt.com"],
+		"malt": ["*@malt.com", "community-row@malt.com", "mailer@malt.com"],
 		"nextyn": ["info@nextyn.com"],
 		"ungm": ["no-reply@ungm.org"],
 		"strategyconnect": ["info@strategyconnect.co"],
@@ -18,8 +18,8 @@
 		"f6s": ["donotreply@f6s.com", "notifications@f6s.com", "support@f6s.com", "alex@f6s.com"],
 		"isdb": ["no-reply@ksaprv.cloud.ariba.com"]
 	},
-	"notes": "gmail_cursor is the timestamp of the newest alert email processed so far; each daily run should only consider messages newer than this, then advance it. TECHNICAL: isdb.org and untalent.org are both blocked by this environment's network egress proxy, so WebFetch cannot verify tender pages on either site directly — WebSearch snippets only, dates must be checked carefully since stale listings (e.g. a Dec-2024-deadline Islamic Finance Sukuk consultant role) can surface under 'recently posted' queries. Two IsDB Sukuk-related EOIs spotted via search (Azerbaijan enabling-environment REOI tagged 2025, Sukuk/Islamic-finance certification capacity-building EOI tagged 2026) but unverified — recommend the user check isdb.org directly given their IsDB portal registration. High5 active since 2026-08-06 but no project-listing emails yet. BTG 'New projects available!' from 2026-08-05 still pending manual review. UNGM TAS delivered 2 alerts total (2026-07-22, 2026-08-06), both off-topic. IsDB registration still pending. F6S, Clutch, MoveMeOn newsletter arm remain out-of-scope/non-gig noise.",
-	"upwork_alert_noise_note": "Across 23 runs, most daily Upwork alerts have been sales/BD/SDR/admin roles or scam-tier/unrealistic fixed-price gigs. No ready-to-apply Upwork gig has cleared both fit and pay floor in 23 consecutive runs. No new Upwork alerts at all in the last 11 runs — a genuinely long dry spell now, worth the user confirming alert settings are still active.",
+	"notes": "gmail_cursor is the timestamp of the newest alert email processed so far; each daily run should only consider messages newer than this, then advance it. MoveMeOn's weekly digest includes a 'Freelance' section with rate info sometimes (e.g. 'Interim Commercial Strategy Consultant, Hyderabad, up to EUR1500' on 2026-08-12) but never duration/hours, making pay-floor scoring unreliable without checking the actual listing — flagged for manual review rather than scored outright. isdb.org and untalent.org remain blocked by network egress proxy. High5 active since 2026-08-06 but no project-listing emails yet. BTG 'New projects available!' from 2026-08-05 still pending manual review. UNGM TAS delivered 2 alerts total, both off-topic. IsDB registration still pending. F6S, Clutch, MoveMeOn newsletter arm remain out-of-scope/non-gig noise.",
+	"upwork_alert_noise_note": "Across 24 runs, most daily Upwork alerts have been sales/BD/SDR/admin roles or scam-tier/unrealistic fixed-price gigs. No ready-to-apply Upwork gig has cleared both fit and pay floor in 24 consecutive runs. No new Upwork alerts at all in the last 12 runs — recommend the user confirm their Upwork alert settings are still active if daily Upwork coverage matters to them.",
 	"open_market_wins": [
 		{
 			"date": "2026-07-26",
