@@ -1,6 +1,6 @@
 {
-	"last_run_at": "2026-08-13T14:45:00Z",
-	"gmail_cursor": "2026-08-13T14:36:47Z",
+	"last_run_at": "2026-08-14T14:45:00Z",
+	"gmail_cursor": "2026-08-14T14:37:22Z",
 	"gmail_label_query_note": "Use label:Avaris (display name) in Gmail search_threads queries, not label:Label_1 (the ID) — the ID form returns zero results even though list_labels reports it correctly.",
 	"known_platform_senders": {
 		"upwork": ["donotreply@upwork.com", "upwork@email.upwork.com", "upwork@t.upwork.com"],
@@ -18,8 +18,8 @@
 		"f6s": ["donotreply@f6s.com", "notifications@f6s.com", "support@f6s.com", "alex@f6s.com"],
 		"isdb": ["no-reply@ksaprv.cloud.ariba.com"]
 	},
-	"notes": "gmail_cursor is the timestamp of the newest alert email processed so far; each daily run should only consider messages newer than this, then advance it. TendersArabia (suggested 2026-08-05) and Jorpex (suggested 2026-08-12) remain unregistered candidate open-market subscription sources; TendersArabia reconfirmed via search to list 10,000+ active GCC tenders. isdb.org and untalent.org remain blocked by network egress proxy. High5 active since 2026-08-06 but no project-listing emails yet. BTG 'New projects available!' from 2026-08-05 still pending manual review; BTG also sends generic content-marketing emails, not gig-relevant. UNGM TAS delivered 2 alerts total, both off-topic. IsDB registration still pending. F6S, Clutch, MoveMeOn newsletter arm remain out-of-scope/non-gig noise.",
-	"upwork_alert_noise_note": "Across 26 runs, most daily Upwork alerts have been sales/BD/SDR/admin roles or scam-tier/unrealistic fixed-price gigs. No ready-to-apply Upwork gig has cleared both fit and pay floor in 26 consecutive runs. No new Upwork alerts at all in the last 14 runs — recommend the user confirm their Upwork alert settings are still active if daily Upwork coverage matters to them.",
+	"notes": "gmail_cursor is the timestamp of the newest alert email processed so far; each daily run should only consider messages newer than this, then advance it. The untalent.org 'UNRC Islamic Finance (Sukuk)' listing (confirmed expired 2026-08-11, deadline Dec 2024) keeps resurfacing in WebSearch results under fresh-sounding queries — search index is stale for this listing, treat future appearances as noise unless a different, verifiably current listing is found. TendersArabia and Jorpex remain unregistered candidate open-market subscription sources. isdb.org and untalent.org remain blocked by network egress proxy. High5 active since 2026-08-06 but no project-listing emails yet. BTG 'New projects available!' from 2026-08-05 still pending manual review. UNGM TAS delivered 2 alerts total, both off-topic. IsDB registration still pending. F6S, Clutch, MoveMeOn newsletter arm remain out-of-scope/non-gig noise.",
+	"upwork_alert_noise_note": "Across 27 runs, most daily Upwork alerts have been sales/BD/SDR/admin roles or scam-tier/unrealistic fixed-price gigs. No ready-to-apply Upwork gig has cleared both fit and pay floor in 27 consecutive runs. No new Upwork alerts at all in the last 15 runs — recommend the user confirm their Upwork alert settings are still active if daily Upwork coverage matters to them.",
 	"open_market_wins": [
 		{
 			"date": "2026-07-26",
