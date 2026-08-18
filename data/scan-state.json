@@ -1,6 +1,6 @@
 {
-	"last_run_at": "2026-08-16T06:10:00Z",
-	"gmail_cursor": "2026-08-15T14:52:06Z",
+	"last_run_at": "2026-08-18T06:10:00Z",
+	"gmail_cursor": "2026-08-18T06:05:22Z",
 	"gmail_label_query_note": "Use label:Avaris (display name) in Gmail search_threads queries, not label:Label_1 (the ID) — the ID form returns zero results even though list_labels reports it correctly.",
 	"known_platform_senders": {
 		"upwork": ["donotreply@upwork.com", "upwork@email.upwork.com", "upwork@t.upwork.com"],
@@ -18,8 +18,8 @@
 		"f6s": ["donotreply@f6s.com", "notifications@f6s.com", "support@f6s.com", "alex@f6s.com"],
 		"isdb": ["no-reply@ksaprv.cloud.ariba.com"]
 	},
-	"notes": "gmail_cursor is the timestamp of the newest alert email processed so far; each daily run should only consider messages newer than this, then advance it. gmail_cursor unchanged this run (2026-08-17) since no new mail arrived after 2026-08-15T14:52:06Z. TendersArabia and Jorpex remain unregistered candidate open-market subscription sources. isdb.org and untalent.org remain blocked by network egress proxy. High5 active since 2026-08-06 but no project-listing emails yet. BTG 'New projects available!' from 2026-08-05 still pending manual review. UNGM TAS delivered 2 alerts total, both off-topic. IsDB registration still pending. F6S, Clutch, MoveMeOn newsletter arm remain out-of-scope/non-gig noise.",
-	"upwork_alert_noise_note": "Across 29 runs, most daily Upwork alerts have been sales/BD/SDR/admin roles or scam-tier/unrealistic fixed-price gigs. No ready-to-apply Upwork gig has cleared both fit and pay floor in 29 consecutive runs. No new Upwork alerts at all in the last 17 runs (over two weeks) — recommend the user directly check their Upwork account alert settings if that channel still matters to them.",
+	"notes": "gmail_cursor is the timestamp of the newest alert email processed so far; each daily run should only consider messages newer than this, then advance it. gmail_cursor advanced to 2026-08-18T06:05:22Z (F6S digest) after processing an 8-thread window; none were gig-relevant. TendersArabia and Jorpex remain unregistered candidate open-market subscription sources. isdb.org and untalent.org remain blocked by network egress proxy. High5 active since 2026-08-06 but no project-listing emails yet. BTG 'New projects available!' from 2026-08-05 still pending manual review. UNGM TAS delivered 2 alerts total, both off-topic. IsDB registration still pending. F6S, Clutch, MoveMeOn newsletter arm remain out-of-scope/non-gig noise. 2026-08-18: new non-gig thread noted — QFC eServices 'Appointment Created REF026596' plus a follow-up flagging an incorrect ticket reference for a 'Web Summit Applicant'; business-admin, not a gig lead, but flagged as an open item for the user to resolve directly with QFC.",
+	"upwork_alert_noise_note": "Across 30 runs, most daily Upwork alerts have been sales/BD/SDR/admin roles or scam-tier/unrealistic fixed-price gigs. No ready-to-apply Upwork gig has cleared both fit and pay floor in 30 consecutive runs. No new Upwork alerts at all in the last 18 runs (over three weeks) — recommend the user directly check their Upwork account alert settings if that channel still matters to them.",
 	"open_market_wins": [
 		{
 			"date": "2026-07-26",
